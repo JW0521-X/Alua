@@ -1,0 +1,35 @@
+# === Alua 編譯產出的二進位檔 (不要傳) ===
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.EFI
+*.efi
+
+# === Alua 腳本編譯後的字節碼 (由原始碼生成即可) ===
+*.alc
+*.bin
+
+# === MacOS 系統自動生成的檔案 (非常討厭，一定要濾掉) ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# === 開發工具與編輯器暫存檔 ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# === 你的 Host 端編譯器執行檔 ===
+aluac
+aluac-host
+
+# === 外部庫 (如果你是手動放 gnu-efi 進去的才需要取消註釋) ===
+# gnu-efi/
